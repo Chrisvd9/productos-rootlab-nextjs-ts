@@ -1,0 +1,125 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+html,
+body {
+  padding: 0;
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
+    Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+@media (prefers-color-scheme: dark) {
+  html {
+    color-scheme: dark;
+  }
+  body {
+    color: white;
+    background: black;
+  }
+}
+
+.img-products {
+  height: 50%;
+  width: 100%;
+}
+
+.card:hover {
+  transform: translateY(-5px) translateX(5px) scale(1.050) translateZ(0);
+  box-shadow: 0 24px 36px rgba(0,0,0,0.11),
+    0 24px 46px var(--box-shadow-color);
+  cursor: pointer;
+}
+.btn-primary:hover {
+  border: 1px solid black;
+}
+
+.detailimg  {
+  height: 60%;
+  width: 100%;
+}
+
+.special-btn {
+	border: 2px solid rgb(255, 255, 255);
+  height: 80px;
+  width: 200px;
+  border-radius: 4px;
+  position: relative;
+  cursor: pointer;
+  font-family: "Roboto", sans-serif;
+  margin: 25px;
+
+  &::after {
+    content: "Products";
+    position: absolute;
+    top: 41%;
+    left: 50%;
+    transform: translate(-50%);
+    color: #fcfcfc;
+    transition: all 0.1s linear;
+  }
+
+  &::before {
+    content: "";
+    position: relative;
+    display: block;
+    height: 15px;
+    width: 15px;
+    background: #ffffff;
+    box-shadow: 0px 0px 10px 3px #0ff;
+    margin-left: -8px;
+    margin-top: -8px;
+    opacity: 0;
+    transition: all 0.1s linear;
+    border-radius: 100%;
+    animation: star 1.3s linear infinite;
+  }
+
+  @keyframes star {
+    0% {
+      margin-left: -8px;
+      margin-top: -8px;
+    }
+    25% {
+      margin-left: 194px;
+      margin-top: -8px;
+    }
+
+    50% {
+      margin-left: 194px;
+      margin-top: 75px;
+    }
+    75% {
+      margin-left: -8px;
+      margin-top: 75px;
+    }
+    100% {
+      margin-left: -8px;
+      margin-top: -8px;
+    }
+  }
+
+  &:hover {
+    &::before {
+      opacity: 1;
+      animation: star 1.3s linear infinite;
+    }
+
+    &::after {
+      content: "Buy Now";
+      text-shadow: 0 0 10px #fff, 0 0 10px #fff, 0 0 20px #82bedc,
+        0 0 30px #82bedc, 0 0 40px #82bedc, 0 0 50px #82bedc, 0 0 60px #82bedc;
+    }
+  }
+}
+
