@@ -1,6 +1,22 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+# Products-rootlab-nextjs-ts
+
+Project made with Nextjs and TypeScript for the Rootlab of Rootstack course.
+
+
+## Imagen
+
+Imagen 1:
+![screenShot01](images/menu.png)
+Imagen 2:
+![screenShot02](images/offers.png)
+Imagen 3:
+![screenShot03](images/details.png)
+
+
 
 ## Getting Started
+
+This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
 
 First, run the development server:
 
