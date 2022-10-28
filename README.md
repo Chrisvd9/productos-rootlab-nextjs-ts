@@ -6,7 +6,7 @@ Project made with Nextjs and TypeScript for the Rootlab of Rootstack course.
 ## Imagen
 
 Imagen 1:
-![screenShot01](images/menu.png)
+![screenShot01](images/home.png)
 Imagen 2:
 ![screenShot02](images/offers.png)
 Imagen 3:
