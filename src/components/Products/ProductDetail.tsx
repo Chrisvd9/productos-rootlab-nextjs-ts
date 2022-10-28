@@ -1,6 +1,7 @@
 import { FC } from "react";
 import Link from "next/link";
 import { Iproduct } from "./ProductsList";
+import Image from "next/image";
 
 interface ProductProps {
   product: Iproduct;
@@ -10,10 +11,12 @@ export const ProductDetail: FC<ProductProps> = ({ product }) => {
   return (
     <div className="flex justify-center p-10">
       <div className="flex flex-col md:flex-row md:max-w-xl rounded-lg  shadow-2xl mx-auto mt-4">
-        <img
-          className="detailimg m-5"
+        <Image
+          className=""
           src={product.thumbnail}
           alt={`${product.title} Poster`}
+          width={1000}
+          height={0}
         />
         <div className="p-6 flex flex-col justify-start">
           <h5 className="text-gray-900 text-2xl font-medium mb-2">

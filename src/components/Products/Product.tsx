@@ -1,3 +1,4 @@
+import Image from "next/image";
 import Link from "next/link";
 import React, { FC } from "react";
 import { Iproduct } from "../Products/ProductsList";
@@ -12,10 +13,12 @@ const Product: FC<TProps> = ({ product }) => {
       <Link href={`/products/${product.id}`}>
         <div className="card flex justify-center text-black">
           <div className="rounded-lg shadow-2xl bg-white max-w-sm">
-            <img
-              className="img-products cursor-pointer rounded-t-lg"
+            <Image
+              className="cursor-pointer rounded-t-lg"
               src={product.thumbnail}
               alt={`${product.title} Poster`}
+              width={500}
+              height={500}
             />
             <div className="p-6">
               <h5 className="text-gray-900 text-xl font-medium mb-2">
