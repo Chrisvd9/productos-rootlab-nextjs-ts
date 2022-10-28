@@ -93,8 +93,10 @@ export const Footer = () => {
           </a>
 
           <a
-            href="#!"
+            target="_blank"
+            href="https://www.linkedin.com/in/christian-vergara-dominguez-84061121b/"
             type="button"
+            rel="noopener noreferrer"
             className="rounded-full border-2 border-black leading-normal uppercase hover:bg-black hover:bg-opacity-5 focus:outline-none focus:ring-0 transition duration-150 ease-in-out w-9 h-9 m-1"
           >
             <svg
@@ -115,8 +117,10 @@ export const Footer = () => {
           </a>
 
           <a
-            href="#!"
+            target="_blank"
+            href="https://github.com/Chrisvd9/productos-rootlab-nextjs-ts"
             type="button"
+            rel="noopener noreferrer"
             className="rounded-full border-2 border-black leading-normal uppercase hover:bg-black hover:bg-opacity-5 focus:outline-none focus:ring-0 transition duration-150 ease-in-out w-9 h-9 m-1"
           >
             <svg
@@ -138,6 +142,7 @@ export const Footer = () => {
         </div>
       </div>
       <div className="text-center p-2">
+        <p>christianvd99@gmail.com</p>
         <a
           href="https://rootstack.com/en"
           target="_blank"
