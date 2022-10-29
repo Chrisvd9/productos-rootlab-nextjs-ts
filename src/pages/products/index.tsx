@@ -7,7 +7,7 @@ interface TProps {
   response: string;
 }
 
-const Movies: NextPage<TProps> = ({ products }) => {
+const Products: NextPage<TProps> = ({ products }) => {
   return (
     <ApplicationWrapper
       title="Products"
@@ -18,7 +18,7 @@ const Movies: NextPage<TProps> = ({ products }) => {
   );
 };
 
-export default Movies;
+export default Products;
 
 export const getStaticProps: GetStaticProps = async (context) => {
   const products = await fetch(`${process.env.NEXT_PUBLIC_API_URL}/products`)

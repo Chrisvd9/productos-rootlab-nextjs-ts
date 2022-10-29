@@ -16,7 +16,7 @@ export const Nav: FC = () => {
           src="https://pbs.twimg.com/media/DdL7vaFWkAAmSRy.png:large"
           alt=""
           width={150}
-          height={50}
+          height={40}
           layout="intrinsic"
         />
       </Link>

@@ -28,6 +28,7 @@ const Product: FC<TProps> = ({ product }) => {
                 Rating: {product.rating}
               </p>
               <p className="text-gray-700 text-xl mb-4">$ {product.price}</p>
+              <p className="text-green-700 text-xl mb-4">{product.discountPercentage}% OFF </p>
               <button className="btn-primary rounded-md bg-black mt-2 text-white font-bold w-full p-3 border-none hover:bg-white cursor-pointer hover:text-black transition ease-out">
                 Buy product
               </button>
