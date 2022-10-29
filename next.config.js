@@ -9,6 +9,11 @@ const nextConfig = {
         hostname: 'dummyjson.com',
         port: ''
       },
+      {
+        protocol: 'https',
+        hostname: 'pbs.twimg.com',
+        port: ''
+      },
     ],
   },
 

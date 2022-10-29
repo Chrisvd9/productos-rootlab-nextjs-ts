@@ -45,11 +45,11 @@ export const ProductDetail: FC<ProductProps> = ({ product }) => {
             <p className="text-2xl">Price: ${product.price}</p>
           </div>
           <div className="py-3 px-6 border-t border-gray-300 text-gray-600">
-            <button className="bg-black mt-2 text-white font-bold w-full p-3 hover:bg-white cursor-pointer hover:text-black transition ease-out">
+            <button className="bg-black rounded-md mt-2 text-white font-bold w-full p-3 hover:bg-white cursor-pointer hover:text-black transition ease-out">
               Add to cart
             </button>
             <Link href="/products">
-              <button className="bg-black mt-2 text-white font-bold w-full p-3 hover:bg-white cursor-pointer hover:text-black transition ease-out">
+              <button className="bg-black rounded-md mt-2 text-white font-bold w-full p-3 hover:bg-white cursor-pointer hover:text-black transition ease-out">
                 Back
               </button>
             </Link>
