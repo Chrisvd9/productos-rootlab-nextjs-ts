@@ -8,9 +8,9 @@ Project made with Nextjs and TypeScript for the Rootlab of Rootstack course.
 Imagen 1:
 ![screenShot01](images/home.png)
 Imagen 2:
-![screenShot02](images/offers.png)
+![screenShot02](images/offers2.png)
 Imagen 3:
-![screenShot03](images/details.png)
+![screenShot03](images/details2.png)
 
 
 ## Getting Started
