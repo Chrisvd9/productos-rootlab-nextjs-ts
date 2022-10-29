@@ -1,6 +1,6 @@
 # Products-rootlab-nextjs-ts
 
-Project made with Nextjs and TypeScript for the Rootlab of Rootstack course.
+Project made with Nextjs and TypeScript for the Rootlab of Rootstack course..
 
 
 ## Imagen
