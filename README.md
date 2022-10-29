@@ -24,6 +24,13 @@ npm run dev
 # or
 yarn dev
 ```
+In other terminal for the data.json with json-server:
+
+```
+npm run start-dev-api
+# or
+yarn start-dev-api
+```
 
 Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
 
