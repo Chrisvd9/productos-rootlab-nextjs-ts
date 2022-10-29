@@ -2,6 +2,9 @@
 
 Project made with Nextjs and TypeScript for the Rootlab of Rootstack course.
 
+Entra aquí para ver el livepreview:
+->> [Live preview](https://productos-rootlab-nextjs-ts-by-christian-vergara.vercel.app/) <<-
+
 
 ## Imagen
 
